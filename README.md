@@ -62,7 +62,7 @@
 
 #### 1. 语义向量化 (Embedding)
 
-* **技术栈**：使用本地 `SentenceTransformer` (BGE-large-zh 模型)。
+* **技术栈**：使用本地 `SentenceTransformer` (本项目使用BGE-large-zh 模型，也可使用其他预训练模型)。
 * **功能**：将文本形式的事件描述（cause 和 effect）转化为高维数值向量。这样，语义相近的短语在数学空间上的距离就会更近。
 
 #### 2. 密度聚类 (HDBSCAN Clustering)
